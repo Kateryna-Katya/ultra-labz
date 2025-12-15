@@ -5,29 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 2</title>
-    <link rel="stylesheet" crossorigin href="/ultra-labz/assets/styles-guStct1H.css">
+    <link rel="stylesheet" crossorigin href="/ultra-labz/assets/styles-KYMM1HF3.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
+    <div class="mobile-menu">
+  <nav class="mobile-menu__nav">
+    <ul class="mobile-menu__list">
+      <li><a href="#" class="mobile-menu__link">Главная</a></li>
+      <li><a href="#platform" class="mobile-menu__link">Платформа</a></li>
+      <li><a href="#innovation" class="mobile-menu__link">Инновации</a></li>
+      <li><a href="#blog" class="mobile-menu__link">Блог</a></li>
+      <li><a href="#contact" class="mobile-menu__link mobile-menu__link--cta">Начать сейчас</a></li>
+    </ul>
+  </nav>
+</div>
+
+<header class="header">
+  <div class="header__container container">
+    <a href="#" class="header__logo">
+      <i data-lucide="bot"></i>
+      <span>Node-Onix</span>
+    </a>
+
+    <nav class="header__nav">
+      <ul class="header__menu">
+        <li class="header__item"><a href="#" class="header__link">Главная</a></li>
+        <li class="header__item"><a href="#platform" class="header__link">Платформа</a></li>
+        <li class="header__item"><a href="#innovation" class="header__link">Инновации</a></li>
+        <li class="header__item"><a href="#blog" class="header__link">Блог</a></li>
       </ul>
     </nav>
+
+    <div class="header__actions">
+      <a href="#contact" class="btn btn--outline desktop-only">Связаться</a>
+      <button class="header__burger" aria-label="Menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
   </div>
 </header>
-
 
     <main>
       <div class="container">
@@ -39,19 +55,60 @@
 
     <footer class="footer">
   <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
+    <div class="footer__grid">
+      <div class="footer__col">
+        <a href="#" class="footer__logo">Ultra-Labz</a>
+        <p class="footer__desc">
+          Технология нового поколения для автоматизации вашего бизнеса.
+          Экспертная поддержка на всех этапах интеграции AI.
+        </p>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Навигация</h3>
+        <ul class="footer__links">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#platform">Возможности</a></li>
+          <li><a href="#innovation">AI Решения</a></li>
+          <li><a href="#blog">База знаний</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Информация</h3>
+        <ul class="footer__links">
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookie Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="return.html">Return Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="personal-data-policy.html">Personal Data</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Контакты</h3>
+        <ul class="footer__contacts">
+          <li>
+            <i data-lucide="map-pin"></i>
+            <span>Via Vincenzo Monti 8, 20123 Milano MI, Italia</span>
+          </li>
+          <li>
+            <i data-lucide="phone"></i>
+            <a href="tel:+390212345678">+39 02 1234 5678</a>
+          </li>
+          <li>
+            <i data-lucide="mail"></i>
+            <a href="mailto:support@ultra-labz.blog">support@ultra-labz.blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2025 Ultra-Labz. Все права защищены. Платформа уже доступна в Европе.</p>
+    </div>
   </div>
 </footer>
-
   </body>
 </html>
